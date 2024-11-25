@@ -127,7 +127,7 @@ python main.py --fullVDB
 
 ## Контакты 
 
-**Telegram [Никита](https://t.me/nik9ta)**
-**Telegram [Маруся](https://t.me/ponyfunan)**
+- **Telegram [Никита](https://t.me/nik9ta)**
+- **Telegram [Маруся](https://t.me/ponyfunan)**
 
 
