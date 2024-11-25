@@ -2,6 +2,7 @@
 
 
 ## Ссылка на клиентскую часть приложения
+
 https://github.com/nik9ta5/appfrntRecSys
 
 ## Архитектура приложения
@@ -68,10 +69,13 @@ cd name_venv/Scripts/activate
 Клонировать репозиторий 
 
 ```bash
+
+
 git clone https://github.com/nik9ta5/appserverRecSys.git
 ```
 
 Перейти в папку с проектом
+
 
 ```bash
 cd appserverRecSys
@@ -80,6 +84,7 @@ cd appserverRecSys
 Установить необходимые зависимости (выполнить команду представленную ниже)
 
 ```bash
+
 pip install -r requirements.txt
 ```
 
@@ -87,11 +92,13 @@ pip install -r requirements.txt
 Точка входа в приложение - ./app/main.py 
 
 Принимаемые параметры:
+
 * --fullVDB - заполнение векторной базы данных (**указывать при первом старте приложения**)
 * --delVDB - удаление всего содержимого векторной базы данных
 
 Перейти в папку **app** и запустить приложение
 ```bash
+
 cd app
 python main.py --fullVDB
 ```
@@ -99,12 +106,14 @@ python main.py --fullVDB
 ## Отслеживаемые пути
 Приложение работает локально по адрессу: http://127.0.0.1:5000
 
+
 При необходимости можно изменить в файле ./app/main.py 
 
 ### Передача данных с клиента
 **POST** http://127.0.0.1:5000/preddiagnose
 
 ```json
+
 {
   "visits" : "",
   "complaint" : "",
@@ -115,7 +124,10 @@ python main.py --fullVDB
 }
 ```
 
+
 ## Контакты 
 
 **Telegram [Никита](https://t.me/nik9ta)**
 **Telegram [Маруся](https://t.me/ponyfunan)**
+
+
