@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
-
+nltk.download('punkt_tab')
 
 
 STOP_WORDS_EN = set(stopwords.words('english'))
