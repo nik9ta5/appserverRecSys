@@ -35,6 +35,8 @@ https://developer.nvidia.com/cuda-downloads
 * **CUDA для PyTorch**, необходимо перейти по ссылке, выбрать соответствующую конфигурацию и установить
 https://pytorch.org/get-started/locally/
 
+**Рекомендуется запускать с CUDA**
+
 После установки
 Клонировать репозиторий
 ```
