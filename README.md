@@ -102,6 +102,8 @@ pip install -r requirements.txt
 cd app
 python main.py --fullVDB
 ```
+**При слишком долгой загрузке базы данных/зависании скрипта на данном этапе** - скачайте и распакуйте архив с БД (https://drive.google.com/file/d/1uCF6-AhxdSDg34yzxAXSJ6zM9VnSLhOz/view?usp=sharing) вручную в папку **app/vectordadabase**
+
 
 ## Отслеживаемые пути
 Приложение работает локально по адрессу: http://127.0.0.1:5000
@@ -123,7 +125,6 @@ python main.py --fullVDB
   "recommendations" : ""
 }
 ```
-
 
 ## Контакты 
 
